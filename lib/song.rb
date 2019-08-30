@@ -58,8 +58,19 @@ class Song
     song.artist_name = artist 
     @@all << song 
     song
-  #  binding.pry 
   end
+  
+  def self.create_from_filename 
+        full_song = song.split(" - ") 
+    artist = full_song[0] 
+    song_title = full_song[1].chomp(".mp3") 
+    song = self.new
+    song.name = song_title 
+    song.artist_name = artist 
+    @@all << song 
+    song
+  end
+  
     
     
   
