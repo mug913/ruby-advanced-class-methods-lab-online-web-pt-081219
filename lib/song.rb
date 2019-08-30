@@ -25,7 +25,7 @@ class Song
  #   binding.pry
   end 
   
-  def self.name 
+  def name 
     puts self.name 
   end
  
