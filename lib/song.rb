@@ -52,7 +52,7 @@ class Song
   def self.new_from_filename(song)
     full_song = song.split(" - ") 
     artist_name = full_song[0] 
-    
+    song
     
     
   
