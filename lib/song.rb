@@ -26,8 +26,8 @@ class Song
  #   binding.pry
   end 
   
-  def name 
-    @song.name 
+  def self.name 
+    self.name 
   end
  
     
