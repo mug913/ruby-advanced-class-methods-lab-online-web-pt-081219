@@ -20,7 +20,7 @@ class Song
   
   
   def name 
-    @self.name 
+    puts @self.name 
   end
  
  
