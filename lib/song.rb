@@ -25,6 +25,10 @@ class Song
     @@all << song
  #   binding.pry
   end 
+  
+  def name 
+    song.name 
+  end
  
     
   end
