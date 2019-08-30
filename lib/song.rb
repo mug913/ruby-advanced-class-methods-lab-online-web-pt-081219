@@ -21,7 +21,8 @@ class Song
 
   def self.new_by_name(name)
     @name = name
-    self.create
+    song = self.new 
+    @all << song
     binding.pry
   end 
  
