@@ -14,7 +14,7 @@ class Song
     song
   end
 
-def name 
+def self.name 
   self.name
 end
   def save
