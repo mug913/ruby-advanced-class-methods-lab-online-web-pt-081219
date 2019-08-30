@@ -27,7 +27,7 @@ class Song
   end 
   
   def name 
-    song.name 
+    @song.name 
   end
  
     
